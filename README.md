@@ -30,4 +30,4 @@ The following image shows the web application's appearance and functionality:
 
 This repository includes the core files and folder related to the tasks, with comments added to key sections of the code to explain their purpose and expected outcome. The interface is straighforward and easy to use: simply click the button to start, follow the prompts, and refresh the page to start over.
 
-# Deployed application:
+# Deployed application and screenshot of the application:
