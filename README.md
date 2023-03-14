@@ -32,4 +32,4 @@ This repository includes the core files and folder related to the tasks, with co
 
 # Deployed application and screenshot of the application:
 
-![](https://github.com/SandraDeve/PasswordGenerator/blob/24024c89a32e9945500a16beec77e0b35f04bc4b/assets/screenshotpasswordg.png)
+![](https://github.com/SandraDeve/PasswordGenerator/blob/9720ac35fbb8c698634004a509c0c00e805f972a/assets/screenshotpassgen.png)
