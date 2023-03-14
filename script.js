@@ -92,7 +92,7 @@ var upperCasedCharacters = [
 function getRandom(array, passwordLength) {
   var password = "";
 
-  // for the total length of the password(integer chose by the user) choose a random character from the array and containate that to above variable
+  // for the total length of the password(integer chose by the user) choose a random character from the array and containate that to above variable//
 
   for (let index = 0; index < pwLength; index++) {
     password += array[Math.floor(Math.random() * array.length)];
@@ -126,8 +126,6 @@ function generatePassword() {
   containUppercase = confirm("Click OK to include uppercase characters.");
   containNumeric = confirm("Click OK to include numeric characters.");
   containSpecial = confirm("Click OK to include special characters.");
-
-  console.log(passwordLength);
 
   // alert user if they don't choose any characters//
   if (
