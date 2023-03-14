@@ -89,7 +89,16 @@ var upperCasedCharacters = [
 ];
 
 // Function for getting a random element from an array
-function getRandom(arr) {}
+function getRandom(array, passwordLength) {
+  var password = "";
+
+  // for the total length of the password(integer chose by the user) choose a random character from the array and containate that to above variable
+
+  for (let index = 0; index < pwLength; index++) {
+    password += array[Math.floor(Math.random() * array.length)];
+  }
+  return password;
+}
 
 // Function to generate password with user input
 function generatePassword() {
