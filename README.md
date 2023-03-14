@@ -1,79 +1,24 @@
-# Module 5 Challenge: Password Generator
+Password Generator
 
-## Overview
- 
-This week’s challenge requires you to create an application that an employee can use to generate a random password based on criteria they’ve selected by modifying starter code. This app will run in the browser, and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean and polished user interface that is responsive, ensuring that it adapts to multiple screen sizes.
+# Overview
 
-The password can include special characters. If you’re unfamiliar with these, see this [list of Password Special Characters from the OWASP Foundation](https://www.owasp.org/index.php/Password_special_characters).
+The purpose of this task was to apply our previous lessons in a practical setting by developing an application that generates a secure password based on user-specified criteria using JavaScript.
 
-## Instructions
+The primary focus was on JavaScript, while the HTML and CSS were left untouched.
+
+The project had several requirements that had to be met, including:
+
+- Generating a password by clicking a button
+- Presenting a series of prompts for password criteria
+- Determining the length of the password, which must be at least 8 characters long but no more than 128.
+- Specifying character types, such as lowercase, uppercase, numeric, and special characters ($@%&\*, etc.).
+- Validating the input for each criterion, and at least one character type must be selected
+- Generating the password once the prompts are answered and displaying it in an alert or writing it to the page.
 
 The following image shows the web application's appearance and functionality:
 
 ![password generator demo](./assets/05-javascript-challenge-demo.png)
 
+# Usage
 
-* Generate a password when the button is clicked
-  * Present a series of prompts for password criteria
-    * Length of password
-      * At least 8 characters but no more than 128.
-    * Character types
-      * Lowercase
-      * Uppercase
-      * Numeric
-      * Special characters ($@%&*, etc)
-  * Code should validate for each input and at least one character type should be selected
-  * Once prompts are answered then the password should be generated and displayed in an alert or written to the page
-
-## Grading Requirements
-
-This challenge is graded based on the following criteria: 
-
-### Technical Acceptance Criteria: 40%
-
-* Satisfies all of the above acceptance criteria plus the following:
-
-  * The challenge should not produce any errors in the console when you inspect it using Chrome DevTools.
-
-### Deployment: 32%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository that contains application code.
-
-### Application Quality: 15%
-
-* Application user experience is intuitive and easy to navigate.
-
-* Application user interface style is clean and polished.
-
-* Application resembles the mock-up functionality provided in the challenge instructions.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-
-## Review
-
-You are required to submit the following for review:
-
-* The URL of the deployed application.
-
-* The URL of the GitHub repository. Give the repository a unique name and include a README describing the project.
-
----
-
-© 2023 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+This repository includes the core files and folder related to the tasks, with comments added to key sections of the code to explain their purpose and expected outcome. The interface is straighforward and easy to use: simply click the button to start, follow the prompts, and refresh the page to start over.
