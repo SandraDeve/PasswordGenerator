@@ -120,7 +120,7 @@ function generatePassword() {
 
   console.log(passwordLength);
 
-  // This while loop will keep running as long as the user has not selected any character types for their password. It uses a series of confirm() functions to prompt the user to select whether they want to include lowercase, uppercase, numeric, and/or special characters//
+  // alert user if they don't choose any characters//
   if (
     !containLowercase &&
     !containUppercase &&
@@ -130,8 +130,23 @@ function generatePassword() {
     alert("Please select at least one character type.");
     return generatePassword();
   }
-  //This part of the code is an empty object called passwordOptions, then assigns values to its properties one at a time. The parseIn function is used to convert the passwordLength string to an integer before assigning it to the length property.//
+  //Creating pool of characters based on user choices//
   var finalPasswordCharacterPool = [];
+
+  if (containLowercase) {
+    finalPasswordCharacterPool.push(...lowerCasedCharacters);
+  }
+  if (containUppercase) {
+    finalPasswordCharacterPool.push(...upperCasedCharacters);
+  }
+  if (containNumeric) {
+    finalPasswordCharacterPool.push(...numericCharacters);
+  }
+  if (containSpecial) {
+    finalPasswordCharacterPool.push(...specialCharacters);
+  }
+
+  return getRandom(finalPasswordCharacterPool, passwordLength);
 }
 
 // Get references to the #generate element
